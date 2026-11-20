@@ -1,0 +1,17 @@
+{
+  "NanGuangLoadText": {
+    "display_name": "南光AIGC-加载文本",
+    "description": "加载本地文本文件并自动填充到编辑框，可直接修改后输出。",
+    "inputs": {
+      "text": {
+        "name": "文本内容",
+        "tooltip": "在此编辑文本，或点击“加载文本文件”按钮从本地文件导入"
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "文本"
+      }
+    }
+  }
+}

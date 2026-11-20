@@ -1,0 +1,12 @@
+torch
+numpy
+Pillow
+transformers>=4.49.0
+accelerate
+
+# ── 提示词优化大师依赖 ──
+llama-cpp-python>=0.2.90
+
+# 说明：
+# - Qwen2.5-VL 相关组件需要 transformers>=4.49.0（你已有）
+# - llama-cpp-python 是 GGUF 推理核心；GPU 加速请按下方 README 安装对应 CUDA wheel

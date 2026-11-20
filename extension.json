@@ -1,0 +1,41 @@
+{
+  "title": "NK-AIGC-Comfyui",
+  "description": "南光AIGC ComfyUI 自定义节点合集，包含工作流自动关机等效率工具。",
+  "author": "NK-AIGC",
+  "tags": ["南光AIGC", "图像", "提示词", "效率", "自动关机", "tool", "utility", "image-processing", "face-detection", "工作流"],
+  "install_mode": "copy",
+  "files": [
+    {
+      "src": "nodes/*.py",
+      "dst": "custom_nodes/NK-AIGC-Comfyui/nodes/"
+    },
+    {
+      "src": "web/",
+      "dst": "custom_nodes/NK-AIGC-Comfyui/web/"
+    },
+    {
+      "src": "fonts/",
+      "dst": "custom_nodes/NK-AIGC-Comfyui/fonts/"
+    },
+    {
+      "src": "image/",
+      "dst": "custom_nodes/NK-AIGC-Comfyui/image/"
+    },
+    {
+      "src": "resources/",
+      "dst": "custom_nodes/NK-AIGC-Comfyui/resources/"
+    },
+    {
+      "src": "requirements.txt",
+      "dst": "custom_nodes/NK-AIGC-Comfyui/"
+    },
+    {
+      "src": "__init__.py",
+      "dst": "custom_nodes/NK-AIGC-Comfyui/"
+    },
+    {
+      "src": "extension.json",
+      "dst": "custom_nodes/NK-AIGC-Comfyui/"
+    }
+  ]
+}
